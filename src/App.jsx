@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import './App.css'
-import Square from './components/Square.jsx'
+// import './App.css'
+import Board from './components/Board.jsx'
 function App() {
   
   return (
-    <>
-     <Square />
-    </>
+    <div className='flex justify-center items-center bg-blue-200 h-screen'>
+     <Board />
+    </div>
   )
 }
 
